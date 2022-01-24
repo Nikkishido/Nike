@@ -1,0 +1,49 @@
+@media(max-width:1024px){
+    header{
+        padding:20px 10px ;
+    }
+    .promo-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo-content h2{
+        margin-bottom:10px;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding:0px 10px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .left-info p{
+        max-width: 100%;
+    }
+    .right-info img{
+        max-width: 90%;
+    }
+}
+@media(max-width:768px){
+    .menu{
+        flex-direction: column;
+    }
+    .menu .right-list{
+        margin-top: 30px;
+        justify-content: flex-end;
+    }
+    .promo-content{
+        text-align: center;
+    }
+    .promo button {
+        margin-top:20px;
+        margin-left: 0;
+    }
+    h2{
+        font-size: 24px !important;
+    }
+    .left-info h1{
+        font-size: 40px;
+    }
+
+}

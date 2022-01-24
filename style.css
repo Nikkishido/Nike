@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    background: #f9f6f1;
+    padding-top: 62px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1116px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+}
+.left-list li,
+.right-list li:not(:last-child) {
+    margin-right: 50px;
+}
+.menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.card {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.left-info h2 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.left-info h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+.left-info p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    max-width: 514px;
+    margin-top: 25px;
+}
+.left-info button,
+.promo button {
+    outline: none;
+    border: none;
+    background-color: #d7b399;
+    padding: 18px 30px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.right-info h2 {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #000000;
+}
+.right-info h1 {
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #d84033;
+    margin-top: 45px;
+}
+
+.right-info img {
+    max-width: 561px;
+}
+.main-info {
+    background: #212121;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 0px 70px 0px;
+}
+.main-info h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+}
+.main-info span {
+    font-weight: 300;
+}
+.main-info p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.promo {
+    background: #f9f6f1;
+    padding: 72px 0px;
+}
+
+.promo-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo h2 {
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+.promo input {
+    width: 255px;
+    background: #f9f6f1;
+    border: 1px solid #000000;
+    padding: 13px 20px;
+}
+.promo input::placeholder {
+    color: black;
+    text-transform: capitalize;
+}
+.promo button {
+    margin-top: 0;
+    padding: 12px 14px;
+    font-size: 14px;
+    width: 185px;
+    margin-left: 42px;
+}
+
+footer {
+    background-color: #212121;
+    padding: 80px 0px;
+}
+.footer-content {
+    display: flex;
+    justify-content: flex-end;
+}
+footer h3 {
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+.link-block:nth-child(1) {
+    margin-right: 84px;
+}
+.link-block:nth-child(2) {
+    margin-right: 76px;
+}
+.link-block:nth-child(3) {
+    margin-right: 53px;
+}
+footer a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #cbcfd4;
+    margin-bottom:10px;
+    display: block;
+}
+
+#vk,#fb,#inst{
+    background-image:url(img/wk.png);
+    background-repeat: no-repeat;
+    padding-left:29px ;
+    background-position: left center;
+}
+#fb{
+background-image: url(img/Facebook.png)
+
+}
+#inst{
+    background-image: url(img/Instagram.png);
+}
